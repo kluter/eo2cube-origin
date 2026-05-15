@@ -1,5 +1,7 @@
 # eo2cube-origin ![live](https://img.shields.io/badge/status-live-brightgreen?style=flat&logo=github)
 
+![eo2cube - redesigned](img/github_hero.png.jpg)
+
 A static rebuild and redesign of [eo2cube.org](https://eo2cube.org/) — the Earth Observation Data Cube platform of the Earth Observation Research Cluster (EORC), University of Würzburg.
 
 ---
