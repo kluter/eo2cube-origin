@@ -431,7 +431,7 @@ section { padding: 80px 0; }
 .btn-accent:hover { background: var(--accent-dk); color: var(--nav-bg); transform: translateY(-1px); }
 
 /* ── Affiliations ─────────────────────────────────────────── */
-.affiliations { background: #060d1c; }
+.affiliations { background: #0a1628; padding-top: 2rem; }
 .affiliations .section-label { color: var(--accent); }
 .affil-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
 .affil-card {
@@ -681,7 +681,7 @@ section { padding: 80px 0; }
 
 /* ── Footer ───────────────────────────────────────────────── */
 .footer {
-  background: var(--nav-bg);
+  background: #060d1c;
   border-top: 3px solid var(--accent);
   padding: 3rem 0 2.5rem;
 }
