@@ -21,10 +21,9 @@ I am happy with the result.
 
 ---
 
-## Design Credit
+## Credits
 
-Visual design was created by **Pawel Kluter**.  
-Institutional content belongs to the Department of Remote Sensing, University of Würzburg.
+Design & code by **Pawel Kluter**. Site content © Earth Observation Research Cluster (EORC), University of Würzburg.
 
 ---
 
