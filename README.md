@@ -4,6 +4,11 @@ A static rebuild and redesign of [eo2cube.org](https://eo2cube.org/) — the Ear
 
 ![eo2cube - redesigned](img/github_hero.png)
 
+| Version | Stack | Description | Link |
+|---|---|---|---|
+| Original | WordPress + Divi | Live production site, built 2020–2021 | [eo2cube.org](https://eo2cube.org) |
+| This repo | HTML5 + CSS3 | Static rebuild and redesign, hosted on GitHub Pages | [GitHub Pages](https://kluter.github.io/eo2cube-origin/) |
+
 ---
 
 ## Background
@@ -24,12 +29,3 @@ I am happy with the result.
 ## Credits
 
 Design & code by **Pawel Kluter**. Site content © Earth Observation Research Cluster (EORC), University of Würzburg.
-
----
-
-## Versions
-
-| Version | Stack | Description | Link |
-|---|---|---|---|
-| Original | WordPress + Divi | Live production site, built 2020–2021 | [eo2cube.org](https://eo2cube.org) |
-| This repo | HTML5 + CSS3 | Static rebuild and redesign, hosted on GitHub Pages | [GitHub Pages](https://kluter.github.io/eo2cube-origin/) |
