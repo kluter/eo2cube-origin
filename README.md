@@ -13,6 +13,8 @@ A static rebuild and redesign of [eo2cube.org](https://eo2cube.org/) — the Ear
 | Original | WordPress + Divi | Live production site, built 2020–2021 | [eo2cube.org](https://eo2cube.org) |
 | This repo | HTML5 + CSS3 | Static rebuild and redesign, hosted on GitHub Pages | [GitHub Pages](https://kluter.github.io/eo2cube-origin/) |
 
+---
+
 ## Background
 
 Between 2020 and 2021, I worked at the EORC and built the original eo2cube website from scratch. The visual identity is my own work. The site content belongs to the EORC.
