@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team | eo2cube</title>
+  <link rel="icon" type="image/png" href="img/cube_logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="img/ci_logo_navbar.png" alt="eo2cube">
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="training.html">Training</a></li>
+        <li><a href="team.html" class="active">Team</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#" class="nav-login">Login</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+
+    <section class="hero" style="align-items:flex-start;padding-top:8rem;">
+      <div class="hero-bg" style="background-image:url('img/jumbotron_team_blank.png');"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <img src="img/team_cube.png" alt="Team" class="hero-cube" style="width:390px;">
+        <p class="hero-eyebrow">We build Data Cubes</p>
+        <h1 class="hero-title">Meet the Team</h1>
+      </div>
+      <div class="hero-scroll">Scroll</div>
+    </section>
+
+    <section class="projects-section" style="background:#0a1628;">
+      <div class="container">
+
+        <p class="section-label" style="margin-bottom:.6rem;">Data Cube Staff</p>
+        <div class="section-divider" style="margin-bottom:2.5rem;"></div>
+        <div class="team-grid">
+
+          <div class="team-card">
+            <div class="team-avatar">01</div>
+            <h3>Team Member 01</h3>
+            <p class="role">Principal Investigator</p>
+          </div>
+
+          <div class="team-card">
+            <div class="team-avatar">02</div>
+            <h3>Team Member 02</h3>
+            <p class="role">Research Associate</p>
+          </div>
+
+          <div class="team-card">
+            <div class="team-avatar">03</div>
+            <h3>Team Member 03</h3>
+            <p class="role">Data Cube Engineer</p>
+          </div>
+
+          <div class="team-card">
+            <div class="team-avatar">04</div>
+            <h3>Team Member 04</h3>
+            <p class="role">Research Associate</p>
+          </div>
+
+          <div class="team-card">
+            <div class="team-avatar">05</div>
+            <h3>Team Member 05</h3>
+            <p class="role">Remote Sensing Analyst</p>
+          </div>
+
+          <div class="team-card">
+            <div class="team-avatar">06</div>
+            <h3>Team Member 06</h3>
+            <p class="role">Research Associate</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-centered">
+        <p class="footer-dept">Earth Observation Research Cluster<br>EORC</p>
+        <p class="footer-addr">John-Skilton-Straße 4a, 97074 Würzburg</p>
+        <img src="img/unilogo_lsfe.png" alt="LSFE" class="footer-logo">
+        <p class="footer-legal">
+          <a href="http://remote-sensing.eu/datenschutzerklarung/" target="_blank" rel="noopener">Datenschutz</a>
+          &nbsp;|&nbsp;
+          <a href="http://remote-sensing.eu/disclaimer-and-data-privacy/" target="_blank" rel="noopener">Impressum</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('navToggle').addEventListener('click', () => {
+      document.getElementById('navLinks').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eo2cube | Earth Observation Data Cubes of the Uni Würzburg</title>
+  <link rel="icon" type="image/png" href="img/cube_logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="img/ci_logo_navbar.png" alt="eo2cube">
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="training.html">Training</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#" class="nav-login">Login</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ── Hero ───────────────────────────────────────────── -->
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <img src="img/cube_logo.png" alt="eo2cube" class="hero-cube">
+        <p class="hero-eyebrow">Earth Observation Research Cluster</p>
+        <p class="hero-eorc">[EORC]</p>
+        <h1 class="hero-title">eo2cube</h1>
+        <p class="hero-subtitle">
+          Earth Observation Data Cubes of the<br>University of Würzburg
+        </p>
+
+      </div>
+      <div class="hero-scroll">Scroll</div>
+    </section>
+
+    <!-- ── About + Features ───────────────────────────────── -->
+    <section class="about-features">
+      <div class="container">
+
+        <!-- About the Project -->
+        <div class="about" style="margin-bottom:3rem;">
+          <p class="section-label">About the Project</p>
+          <h2 class="section-title">What is eo2cube?</h2>
+          <div class="section-divider"></div>
+          <p class="section-body" style="margin-bottom:1.25rem;">
+            Digital tools for environmental monitoring require a high degree of flexibility,
+            a wide application range and user-friendliness. The next generation of data analysis
+            and visualization, as well as the management and infrastructure of large volumes of
+            EO Data, are cloud-based <span class="about-strong">Data Cubes</span>.
+          </p>
+          <p class="section-body" style="margin-bottom:1.25rem;">
+            The eo2cube project aims to create an innovative data analysis infrastructure,
+            supporting agencies and scientific institutions by reducing the complexity and effort
+            that comes with processing <span class="about-strong">Big Data</span>.
+          </p>
+          <p class="section-body">
+            Our Data Cubes are powered by the
+            <a href="http://www.opendatacube.org" target="_blank" rel="noopener">Open Data Cube</a>
+            architecture.
+          </p>
+        </div>
+
+        <!-- Three cards in one row -->
+        <div class="feature-cards-row">
+          <div class="feature-card">
+            <img src="img/ci_icon_datenserver.png" alt="Projects" class="feature-icon">
+            <h3>Our Projects</h3>
+            <p>Explore our ongoing and past datacube activities across Africa and Europe.</p>
+            <a href="projects.html" class="btn-accent">Read More</a>
+          </div>
+          <div class="feature-card">
+            <img src="img/ci_icon_train.png" alt="Hub" class="feature-icon">
+            <h3>Hub</h3>
+            <p>Access our JupyterHub and start analysing EO data in your browser.</p>
+            <a href="#" target="_blank" rel="noopener" class="btn-accent">Start Coding</a>
+          </div>
+          <div class="feature-card">
+            <img src="img/ci_icon_github.png" alt="GitHub" class="feature-icon">
+            <h3>Our Code</h3>
+            <p>All tools and notebooks are open source and available on GitHub.</p>
+            <a href="https://github.com/eo2cube" target="_blank" rel="noopener" class="btn-accent">Visit GitHub</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── Affiliations ────────────────────────────────────── -->
+    <section class="affiliations">
+      <div class="container">
+        <div style="text-align:center;margin-bottom:3rem;">
+          <p class="section-label">Partners &amp; Affiliations</p>
+          <h2 class="section-title" style="color:#fff;">Our Affiliations</h2>
+        </div>
+        <div class="affil-grid">
+          <a href="https://www.geographie.uni-wuerzburg.de/fernerkundung/startseite/"
+             target="_blank" rel="noopener" class="affil-card" style="color:inherit;">
+            <img src="img/unilogo_wue.png" alt="University of Würzburg" class="affil-logo">
+            <div>
+              <h4>Remote Sensing Department</h4>
+              <p>University of Würzburg in collaboration with the Earth Observation Center
+                at the German Aerospace Center (DLR-EOC).</p>
+            </div>
+          </a>
+          <a href="https://remote-sensing.org/"
+             target="_blank" rel="noopener" class="affil-card" style="color:inherit;">
+            <img src="img/unilogo_lsfe.png" alt="LSFE" class="affil-logo">
+            <div>
+              <h4>The Remote Sensing Department's News Blog</h4>
+              <p>Stay up to date on the latest activities, research projects and positions
+                at the Remote Sensing Department of the University of Würzburg.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-centered">
+        <p class="footer-dept">Earth Observation Research Cluster<br>EORC</p>
+        <p class="footer-addr">John-Skilton-Straße 4a, 97074 Würzburg</p>
+        <img src="img/unilogo_lsfe.png" alt="LSFE" class="footer-logo">
+        <p class="footer-legal">
+          <a href="http://remote-sensing.eu/datenschutzerklarung/" target="_blank" rel="noopener">Datenschutz</a>
+          &nbsp;|&nbsp;
+          <a href="http://remote-sensing.eu/disclaimer-and-data-privacy/" target="_blank" rel="noopener">Impressum</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('navToggle').addEventListener('click', () => {
+      document.getElementById('navLinks').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>

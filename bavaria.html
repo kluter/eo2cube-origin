@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bavarian Data Cube | eo2cube</title>
+  <link rel="icon" type="image/png" href="img/cube_logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="img/ci_logo_navbar.png" alt="eo2cube">
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="training.html">Training</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#" class="nav-login">Login</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+
+    <section class="hero" style="align-items:flex-start;padding-top:8rem;">
+      <div class="hero-bg" style="background-image:url('img/espe_hero.png');"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <img src="img/cube_bavaria.png" alt="Bavarian Data Cube" class="hero-cube" style="width:300px;">
+        <p class="hero-eyebrow">Active Project</p>
+        <h1 class="hero-title">Bavarian Data Cube</h1>
+      </div>
+      <div class="hero-scroll">Scroll</div>
+    </section>
+
+    <section class="project-detail">
+      <div class="container">
+
+        <div class="project-about">
+          <p class="section-label">About the Project</p>
+          <div class="section-divider"></div>
+          <h2 class="section-title">Emission Sources from EO Data for Improved Pollen Forecasting</h2>
+          <div style="display:flex;align-items:center;gap:3.5rem;">
+            <img src="img/espe_allergy.png" alt="Pollen allergy" style="width:180px;flex-shrink:0;border-radius:var(--r);">
+            <div class="project-sub-card" style="flex:1;">
+              <p class="section-body" style="max-width:none;margin-bottom:1rem;">
+                Currently, more than 20% of adults and 15% of children and adolescents suffer from an
+                allergic-atopic disease. In Bavaria, this includes about 2 million adults and 300,000
+                children and adolescents.
+              </p>
+              <p class="section-body" style="max-width:none;margin-bottom:1rem;">
+                Thereby, about 80% of all allergy sufferers are pollen allergy sufferers. These diseases
+                caused total costs of about 600 million euros in Bavaria in 2013. The goal of the Bavarian
+                state government is therefore a valid and practicable pollen forecast, which is characterized
+                by both the highest possible spatial resolution and the earliest possible prediction.
+              </p>
+              <p class="section-body" style="max-width:none;">
+                The ESPE project aims to optimize pollen modeling by incorporating current high-resolution
+                forest and open-land maps of Bavaria into forecast models. For this purpose, freely available
+                satellite-based Earth observation data of the Copernicus Sentinels and innovative "Data Cube"
+                spatial data infrastructures are used.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div style="display:flex;align-items:center;gap:3.5rem;margin-bottom:3rem;">
+          <img src="img/ESPE-Logo_trsp.png" alt="ESPE" style="width:180px;flex-shrink:0;">
+          <div class="project-sub-card" style="flex:1;">
+            <h4 style="font-family:var(--font-d);font-size:1rem;font-weight:700;color:#fff;margin-bottom:.75rem;">Project Goals</h4>
+            <ul class="facts-list">
+              <li>Improve baseline mapping of grassland and forest distribution using Sentinel-2 data</li>
+              <li>Optimize remote sensing coverage of forest types and grassland as pollen sources</li>
+              <li>Analyse potential improvements to pollen forecasting through integrated land cover data</li>
+            </ul>
+          </div>
+        </div>
+
+        <div style="margin-top:3rem;margin-bottom:1.25rem;">
+          <p class="section-label">Facts &amp; Figures</p>
+          <div class="section-divider"></div>
+          <h2 class="section-title">Data &amp; Infrastructure</h2>
+        </div>
+        <div style="display:flex;align-items:center;gap:3.5rem;">
+          <img src="img/espe_map_iso.png" alt="ESPE coverage map" style="width:180px;flex-shrink:0;border-radius:var(--r);">
+          <div class="project-sub-card" style="flex:1;">
+            <div style="display:flex;align-items:stretch;gap:1.5rem;">
+              <ul class="facts-list" style="flex:1;margin-bottom:0;">
+                <li>Over 13,000 high-resolution Sentinel-2 satellite images</li>
+                <li>More than 12 TeraBytes of atmosphere-corrected Analysis Ready Data (ARD)</li>
+                <li>Coverage period: 2015–2020 and ongoing</li>
+                <li>Data access via custom Jupyter Notebooks</li>
+              </ul>
+              <div style="display:flex;flex-direction:column;justify-content:center;">
+                <a href="https://www.geographie.uni-wuerzburg.de/erdbeobachtung/forschung/laufende-projekte/emissionsquellen-aus-satellitendaten-fuer-eine-verbesserte-vorhersage-des-pollenflugs-in-bayern-espe/" target="_blank" rel="noopener" class="btn-accent">More on the ESPE Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-centered">
+        <p class="footer-dept">Earth Observation Research Cluster<br>EORC</p>
+        <p class="footer-addr">John-Skilton-Straße 4a, 97074 Würzburg</p>
+        <img src="img/unilogo_lsfe.png" alt="LSFE" class="footer-logo">
+        <p class="footer-legal">
+          <a href="http://remote-sensing.eu/datenschutzerklarung/" target="_blank" rel="noopener">Datenschutz</a>
+          &nbsp;|&nbsp;
+          <a href="http://remote-sensing.eu/disclaimer-and-data-privacy/" target="_blank" rel="noopener">Impressum</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('navToggle').addEventListener('click', () => {
+      document.getElementById('navLinks').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>

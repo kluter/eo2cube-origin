@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demmin Data Cube | eo2cube</title>
+  <link rel="icon" type="image/png" href="img/cube_logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="img/ci_logo_navbar.png" alt="eo2cube">
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="training.html">Training</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#" class="nav-login">Login</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+
+    <section class="hero" style="align-items:flex-start;padding-top:8rem;">
+      <div class="hero-bg" style="background-image:url('img/demmin_hero.png');"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <img src="img/cube_demmin.png" alt="Demmin Data Cube" class="hero-cube" style="width:300px;">
+        <p class="hero-eyebrow">Active Project</p>
+        <h1 class="hero-title">Demmin Data Cube</h1>
+      </div>
+      <div class="hero-scroll">Scroll</div>
+    </section>
+
+    <section class="project-detail">
+      <div class="container">
+
+        <div class="project-about">
+          <p class="section-label">About the Project</p>
+          <div class="section-divider"></div>
+          <h2 class="section-title">Durable Environmental Multidisciplinary Monitoring Information Network</h2>
+          <div style="display:flex;align-items:center;gap:3.5rem;">
+            <img src="img/demmin_icon_traktor.png" alt="" style="width:180px;flex-shrink:0;">
+            <div class="project-sub-card" style="flex:1;">
+              <p class="section-body" style="max-width:none;">
+                DEMMIN involves eight interdisciplinary project partners covering various research aspects.
+                The department of remote sensing of the University of Würzburg focuses on the development
+                of cloud-based big data architectures for spatial data management, the provision of
+                ready-to-use earth observation data and the development of land cover information and
+                biophysical parameters. Therefore, one the main topic is the intuitive use of satellite
+                time series from both optical and radar satellites to record and evaluate dynamic land
+                changes. Research questions on the observation of biodiversity in protected areas, forest
+                ecosystems and in the agricultural landscape are processed.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top:3rem;margin-bottom:1.25rem;">
+          <p class="section-label">Stakeholders</p>
+          <div class="section-divider"></div>
+        </div>
+        <div class="affil-grid" style="margin-bottom:3rem;">
+          <div class="affil-card">
+            <img src="img/agrisens.png" alt="AgriSens" class="affil-logo" style="width:110px;">
+            <div>
+              <h4>AgriSens – DEMMIN 4.0</h4>
+              <p>Launched in 2020 in Mecklenburg-Western Pomerania, AgriSens aims to use geographic
+                 information in crop production by identifying remote sensing applications for practical
+                 agricultural questions — simplifying data access and reducing environmental impacts for farmers.</p>
+            </div>
+          </div>
+          <div class="affil-card">
+            <img src="img/logo_psar_sw_noBG_xt.png" alt="PhenoSAR" class="affil-logo" style="width:110px;">
+            <div>
+              <h4>PhenoSAR – DEMMIN</h4>
+              <p>PhenoSAR monitors farmland using Sentinel-1 radar data within an Open Data Cube framework,
+                 focusing on phenological development and detecting various stages of plant growth and their
+                 transition throughout the agricultural season.</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-bottom:1.25rem;">
+          <p class="section-label">Facts &amp; Figures</p>
+          <div class="section-divider"></div>
+          <h2 class="section-title">Available Datasets</h2>
+        </div>
+        <div style="display:flex;align-items:center;gap:3.5rem;">
+          <img src="img/demmin_icon_combine.png" alt="" style="width:180px;flex-shrink:0;">
+          <div class="project-sub-card" style="flex:1;">
+            <div style="display:flex;align-items:stretch;gap:1.5rem;">
+              <ul class="facts-list" style="flex:1;margin-bottom:0;">
+                <li>Meteorological datasets — German Weather Service (DWD)</li>
+                <li>Landsat 5–8 optical and thermal data</li>
+                <li>Sentinel-1 Radar (SAR) data</li>
+                <li>Sentinel-2 optical data</li>
+                <li>Copernicus Digital Elevation Model</li>
+              </ul>
+              <div style="display:flex;flex-direction:column;justify-content:center;gap:.75rem;">
+                <a href="https://stac-browser.eo2cube.org" target="_blank" rel="noopener" class="btn-accent">DEMMIN Data Cube</a>
+                <a href="https://www.agrisens-demmin.de/" target="_blank" rel="noopener" class="btn-accent">More about AgriSens</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-centered">
+        <p class="footer-dept">Earth Observation Research Cluster<br>EORC</p>
+        <p class="footer-addr">John-Skilton-Straße 4a, 97074 Würzburg</p>
+        <img src="img/unilogo_lsfe.png" alt="LSFE" class="footer-logo">
+        <p class="footer-legal">
+          <a href="http://remote-sensing.eu/datenschutzerklarung/" target="_blank" rel="noopener">Datenschutz</a>
+          &nbsp;|&nbsp;
+          <a href="http://remote-sensing.eu/disclaimer-and-data-privacy/" target="_blank" rel="noopener">Impressum</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('navToggle').addEventListener('click', () => {
+      document.getElementById('navLinks').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>

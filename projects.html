@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | eo2cube</title>
+  <link rel="icon" type="image/png" href="img/cube_logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="img/ci_logo_navbar.png" alt="eo2cube">
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="training.html">Training</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#" class="nav-login">Login</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+
+    <section class="hero" style="align-items:flex-start;padding-top:8rem;">
+      <div class="hero-bg" style="background-image:url('img/jumbotron_team_blank.png');"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <img src="img/projects_cube.png" alt="eo2cube Projects" class="hero-cube" style="width:300px;">
+        <p class="hero-eyebrow">Past &amp; Present</p>
+        <h1 class="hero-title">Our Data Cube Portfolio</h1>
+      </div>
+      <div class="hero-scroll">Scroll</div>
+    </section>
+
+    <section class="projects-section" style="background:#0a1628;">
+      <div class="container">
+
+        <p class="section-label" style="margin-bottom:.6rem;">Active Projects</p>
+        <div class="section-divider" style="margin-bottom:1.5rem;"></div>
+        <div class="project-cards-grid" style="margin-bottom:3rem;">
+
+          <div class="feature-card">
+            <img src="img/cube_demmin.png" alt="DEMMIN" class="card-img">
+            <span class="project-status status-active">Active</span>
+            <h3>Demmin Data Cube</h3>
+            <p>Agricultural monitoring in Northern Germany using Sentinel-based data cubes
+               for dense time series analysis and precision farming applications at the DEMMIN test site.</p>
+            <a href="demmin.html" class="btn-accent">Read More</a>
+          </div>
+
+          <div class="feature-card">
+            <img src="img/cube_bavaria.png" alt="Bavaria Data Cube" class="card-img">
+            <span class="project-status status-active">Active</span>
+            <h3>Bavarian Data Cube</h3>
+            <p>Regional data cube for the Free State of Bavaria enabling dense time series
+               analysis for agricultural and forest monitoring across the entire federal state.</p>
+            <a href="bavaria.html" class="btn-accent">Read More</a>
+          </div>
+
+          <div class="feature-card">
+            <img src="img/cube_westafrica.png" alt="West Africa Data Cube" class="card-img">
+            <span class="project-status status-active">Active</span>
+            <h3>West African Data Cube</h3>
+            <p>Multi-country data cube covering West African nations, enabling cross-border
+               land degradation monitoring and environmental change detection in partnership with WASCAL.</p>
+            <a href="westafrica.html" class="btn-accent">Read More</a>
+          </div>
+
+        </div>
+
+        <p class="section-label" style="margin-bottom:.6rem;">Finished Projects</p>
+        <div class="section-divider" style="margin-bottom:1.5rem;"></div>
+        <div class="project-cards-grid--2">
+
+          <div class="feature-card">
+            <img src="img/cube_namibia.png" alt="Namibia Data Cube" class="card-img">
+            <span class="project-status status-finished">Finished</span>
+            <h3>Namibian Data Cube</h3>
+            <p>Data cube infrastructure developed for the Namibia Statistics Agency (NSA),
+               supporting national land use monitoring and providing a foundation for country-wide satellite-based reporting.</p>
+            <a href="namibia.html" class="btn-accent">Read More</a>
+          </div>
+
+          <div class="feature-card">
+            <img src="img/cube_southafrica.png" alt="South Africa Data Cube" class="card-img">
+            <span class="project-status status-finished">Finished</span>
+            <h3>South African Data Cube</h3>
+            <p>Earth Observation data cube built for South Africa, enabling large-scale environmental
+               monitoring and supporting national reporting on land cover and vegetation dynamics.</p>
+            <a href="southafrica.html" class="btn-accent">Read More</a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-centered">
+        <p class="footer-dept">Earth Observation Research Cluster<br>EORC</p>
+        <p class="footer-addr">John-Skilton-Straße 4a, 97074 Würzburg</p>
+        <img src="img/unilogo_lsfe.png" alt="LSFE" class="footer-logo">
+        <p class="footer-legal">
+          <a href="http://remote-sensing.eu/datenschutzerklarung/" target="_blank" rel="noopener">Datenschutz</a>
+          &nbsp;|&nbsp;
+          <a href="http://remote-sensing.eu/disclaimer-and-data-privacy/" target="_blank" rel="noopener">Impressum</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('navToggle').addEventListener('click', () => {
+      document.getElementById('navLinks').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>

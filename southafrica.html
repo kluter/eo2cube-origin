@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>South African Data Cube | eo2cube</title>
+  <link rel="icon" type="image/png" href="img/cube_logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="img/ci_logo_navbar.png" alt="eo2cube">
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="training.html">Training</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#" class="nav-login">Login</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+
+    <section class="hero" style="align-items:flex-start;padding-top:8rem;">
+      <div class="hero-bg" style="background-image:url('img/saldi_hero.png');"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <img src="img/cube_southafrica.png" alt="South African Data Cube" class="hero-cube" style="width:300px;">
+        <p class="hero-eyebrow">Finished Project</p>
+        <h1 class="hero-title">South African Data Cube</h1>
+      </div>
+      <div class="hero-scroll">Scroll</div>
+    </section>
+
+    <section class="project-detail">
+      <div class="container">
+
+        <div class="project-about">
+          <p class="section-label">About the Project</p>
+          <div class="section-divider"></div>
+          <h2 class="section-title">Development of EO Data Cubes for Monitoring Land Degradation Processes in South Africa</h2>
+          <div style="display:flex;align-items:center;gap:3.5rem;">
+            <div style="width:180px;flex-shrink:0;display:flex;justify-content:center;">
+              <img src="img/africa_map_iso.png" alt="Africa coverage map" style="width:180px;border-radius:var(--r);">
+            </div>
+            <div class="project-sub-card" style="flex:1;">
+              <p class="section-body" style="max-width:none;margin-bottom:1rem;">
+                Global biodiversity and ecosystem services are under high pressure of human impact. Although
+                avoiding, reducing and reversing the impacts of human activities on ecosystems should be an
+                urgent priority, the loss of biodiversity continues. One of the main drivers of biodiversity
+                loss is land use change and land degradation. In South Africa land degradation has a long
+                history and is of great concern.
+              </p>
+              <p class="section-body" style="max-width:none;margin-bottom:1rem;">
+                Within the SALDi (South African Land Degradation Monitor) project ready-to-use earth
+                observation (EO) data cubes are developed for land degeneration monitoring. EO data cubes
+                are both useful and effective tools to deliver decision-ready products for users. By
+                accessing, storing and processing of EO products and their time-series in data cubes, the
+                efficient monitoring of land degradation can therefore be enabled. The SALDi data cubes
+                from optical and radar satellite data include all necessary pre-processing steps and are
+                generated to monitor vegetation dynamics of five years for six focus areas.
+              </p>
+              <p class="section-body" style="max-width:none;">
+                Therefore, spatial high resolution earth observation data from 2016 to 2021 from Sentinel-1
+                (C-Band radar) and Sentinel-2 (multispectral) will be integrated in the SALDi data cube for
+                six research areas of roughly 100 x 100 km. Additionally, a digital elevation model and a
+                number of vegetation indices will be implemented to account for explicit land degradation
+                and vegetation monitoring.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top:3rem;margin-bottom:1.25rem;">
+          <p class="section-label">Stakeholders</p>
+          <div class="section-divider"></div>
+        </div>
+        <div style="display:flex;align-items:center;gap:3.5rem;margin-bottom:3rem;">
+          <div style="width:180px;flex-shrink:0;display:flex;justify-content:center;">
+            <img src="img/saldi_logo_trsp.png" alt="SALDi" style="width:180px;">
+          </div>
+          <div class="project-sub-card" style="flex:1;">
+            <h4 style="font-family:var(--font-d);font-size:1rem;font-weight:700;color:#fff;margin-bottom:.75rem;">SALDi – South African Land Degradation Monitor</h4>
+            <p class="section-body" style="max-width:none;">
+              SALDi is funded by the German Federal Ministry of Education and Research (BMBF) and
+              conducted in cooperation between the University of Würzburg and South African research
+              partners. The project develops operational EO-based monitoring tools for land degradation
+              assessment across six focus regions in South Africa, supporting national environmental
+              reporting and evidence-based land management decisions.
+            </p>
+          </div>
+        </div>
+
+        <div style="margin-top:3rem;margin-bottom:1.25rem;">
+          <p class="section-label">Facts &amp; Figures</p>
+          <div class="section-divider"></div>
+          <h2 class="section-title">Available Datasets</h2>
+        </div>
+        <div style="display:flex;align-items:center;gap:3.5rem;">
+          <div style="width:180px;flex-shrink:0;display:flex;justify-content:center;">
+            <img src="img/saldi_iso.png" alt="SALDI data cube" style="width:180px;border-radius:var(--r);">
+          </div>
+          <div class="project-sub-card" style="flex:1;">
+            <div style="display:flex;align-items:stretch;gap:1.5rem;">
+              <ul class="facts-list" style="flex:1;margin-bottom:0;">
+                <li>Almost 7,000 Sentinel-1 SAR images (2015–2020)</li>
+                <li>Roughly 6,000 Sentinel-2 images (2016–2018)</li>
+                <li>8 TeraBytes of ingested data; 4 TB additional expected</li>
+                <li>Copernicus Digital Surface Model and vegetation products</li>
+                <li>Jupyter Notebooks for data access and analysis</li>
+              </ul>
+              <div style="display:flex;flex-direction:column;justify-content:center;">
+                <a href="https://www.saldi.uni-jena.de/en" target="_blank" rel="noopener" class="btn-accent">More about SALDi</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-centered">
+        <p class="footer-dept">Earth Observation Research Cluster<br>EORC</p>
+        <p class="footer-addr">John-Skilton-Straße 4a, 97074 Würzburg</p>
+        <img src="img/unilogo_lsfe.png" alt="LSFE" class="footer-logo">
+        <p class="footer-legal">
+          <a href="http://remote-sensing.eu/datenschutzerklarung/" target="_blank" rel="noopener">Datenschutz</a>
+          &nbsp;|&nbsp;
+          <a href="http://remote-sensing.eu/disclaimer-and-data-privacy/" target="_blank" rel="noopener">Impressum</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('navToggle').addEventListener('click', () => {
+      document.getElementById('navLinks').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
